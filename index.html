@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="PT-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="styles.css" rel="stylesheet">
+    <title>Portfólio</title>
+</head>
+<body>
+    <header>
+    <nav class="menu">
+        <a href="#">Sobre mim</a>
+        <a href="#">Formação</a>
+        <a href="#">Portfólio</a>
+        <a href="#">Contato</a>
+    </nav>
+    </header>
+   
+    <section class="container">
+        <div class="text">
+            <h3>Oi</h3>
+
+            <h1>Eu sou <span>Letícia<br></span></h1>
+            
+            <p>Tenho 22 anos e moro no entorno de Brasília. Desde do ensino médio 
+                eu tenho vontade aprender a progamação. Em 2023 tive a oportunidade, mas tive que trancar por motivos financeiros,
+                esse ano até pensei em desistir de cursar ADS, por não acha que era isso que eu queria,
+                mas na caminhada vi que promamçaõ ainda faz meu olho brilhar!
+            </p>
+
+            <div class="btn-box">
+                <button class="btn-1">Formação</button>
+                <button class="btn-2">Contato</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="about">
+        <div class="about-me">
+            <h2 class="heading">Formação</h2><br>
+            <h3>Ensino médio completo</h3>
+            <p>Me formei em 2019</p>
+            <h3>Operador de computador</h3>
+            <p>Senac - 2020 </p>
+            <h3>Técnicas Administrativas</h3>
+            <p>Senac 2023-2024</p>
+            <h3>Analise e desenvolvimento de sistemas</h3> 
+            <p>Uninter- 2024- atual</p><br><br>
+            <a href="#" class="btn-2">Contato</a>
+        </div>
+    </section>
+
+    <section class="contato">
+        <h2 class="contato-me">Contato</h2>
+
+        <form action="#">
+
+            <div class="input-box">
+                <input type="text" 
+                placeholder="Nome"> 
+                <input type="email" 
+                placeholder="Email"> 
+            </div>
+
+            <textarea name="" id="" cold="30" rows="10"
+            placeholder="Mande sua mensagem"></textarea>
+            <input type="Enviar" value="Enviar mensagem" class="btn-1">
+        </form>
+    </section>
+
+    <footer class="footer"></footer>
+        
+    
+ <script>
+    const form = document.gerElementByIpunt("from");
+    const campos = document.querySelectorAll(".required");
+ </script>
+
+ <footer class="footer">
+    <div class="social">
+        <a href="#"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAeNJREFUSEvF1T+ozmEUB/DPdUlSN5KUwcLtJv/jjpiMZHCVYjESxSCDlAwGJYrproRBYpJFuotYkKRkUCYWhZL/z9Hze3s8fr/cN73dM73vOec533O+589vyIBlaMDxzRjAchzFZqymM5GfeIYpnMfLmpG2Cg5k5zl90vcVBzFZvqsBNuIhZvUZvHH/hk140ihqgJvY2Ufwt1iDCVzM724k2nZ1AbzGshaANziD51iEMRxH+AdAZP0ov3uFFV0AHzG/AribM/qAxdn2DqtwB59SzxZgSbaF30gbQPD+vQoegUZzsL3Yipic+ynLyxjOE1Q+iz70BqTsQSi/VABncSxlfgkxXaUE54dwG9sLQyQ5u62CUMaolbIft3LGsQ+lPMU6nEx7cqow/MiV/VaVFcTvMJYSc30tUXMPayvb4wS+ASdSwNOVrRe3HtPgt5TgeR8u4HBli809kivcUdg6exA+NUBUtB7zsAdbcqBo8tU0unNbmvw5+/9FUSjaxjRmPZYvKCkl7lTQt7TSv08VL2x0NUVxrHpLUjUuNrRctG1V4ObvC6zsArieguzueDhd9RXEzrRSNI4H/3ns4mDGCLcChHKg57oBLj84ccy6pPzgnEsjHYfuD5mxT+Z0G/pPv4FX8AszSlgZRYBdrAAAAABJRU5ErkJggg=="/></a>
+        <a href="#"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAYVJREFUSEvF1DFIVXEUx/HP20ShQHTQoS0KQQeRBrfAkogWp7bARSmxsUB0KYqGxmoMl4LaGgRxKsLFIQgcxCXBtUURJAy9/7gX/v15t/fufT08cJf/vef7u+d/zvk1dDkaXeY7F4Eg+hiX8RCHnVSZVnABHzCdQzdxHb/qiqQC3zGawD5hBr/riKQCpyWQt5j9HwJH6C0BLeFZVZG0gu2sByMlkDXc7lTgPe42gexgCvudCszjTQL5hhv4WRUevk+v6BL2EtBVhApqRbNNDmN5J6Kt4EktepMKAmcia+ZWBDzOz8IAxDGEl1jHatkPlHnRK9yPkn7gJnbzs0F8Qbi+EE+zRVxuJlIm0JNZxGdci5LCjjzHx/wZS4CvsYC/lvVfbjqQjeZXXKlw/+9wDydFTiu7vpj/bRjTdiNU8qBdgWKUF3ObKLORWPxFbvd/zlpVECeGxj5CWMa+knI2cCt23ioCBbMfc5jEOIbzF2EZw1AcxOJ1BNrtReUrqgSu0uRa4CLpDBORNRkbOkH4AAAAAElFTkSuQmCC"/></a>
+    </div>
+    
+    <ul class="list">
+        <li>
+            <a href="https://wa.me/5561995927578?text=Text%20me">Contato </a>
+        </li>
+        <li>
+            <a href="https://www.instagram.com/_iamletx/?next=%2Fexplore%2F&hl=pt">About me</a>
+        </li>
+    </ul>
+
+    <p class="copyright"> 2024 Letícia</p>
+ </footer>
+</body>
+</html>
